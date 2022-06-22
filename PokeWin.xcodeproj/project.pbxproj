@@ -137,6 +137,7 @@
 				CB46E5CC286172F70078AC25 /* Sources */,
 				CB46E5CD286172F70078AC25 /* Frameworks */,
 				CB46E5CE286172F70078AC25 /* Resources */,
+				CB46E5FD28619E1D0078AC25 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -251,6 +252,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB46E5FD28619E1D0078AC25 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"please install SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB46E5CC286172F70078AC25 /* Sources */ = {
@@ -417,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PokeWin/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MJU26VTAU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PokeWin/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MJU26VTAU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
